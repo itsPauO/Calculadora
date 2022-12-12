@@ -1,20 +1,160 @@
 
- #fondocalculadora
+ #fondoCalculadora
  {
      width: 400px;
-     height: 20cm;
+     height: 650px;
      border-radius: 25px;
      background-color: #FFDAB9;
-     
+     margin: auto;
+     padding-top: 10px;
  }
  
- .boton1
+ #cabecera
  {
-     display:block;
-     width: 50px;
-     height: 50px;
+    width: 350px;
+    height: 150px;
+    background-color: #FBC4AB;
+    margin: auto;
+    border-radius: 5%;
+    display: flex;
+    text-align: center;
+    justify-content: right;
+ }
+
+#fondoBotones
+{
+    width: 350px;
+    height: 450px;
+    background-color: rgb(247, 181, 179);
+    margin-top: 10px; 
+    margin-left: 25px;
+    border-radius: 2%;
+
+}
+
+#resultadonum
+{
+    font-size: 50px;;
+}
+.lineas
+{
+    width: 100%;
+    background-color: #FBC4AB
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    
+
+}
+.boton1
+ {
+     width: 80px;
+     height: 80px;
      background-color: #FBC4AB;
      border-radius: 50%;
      border-color: transparent;
      box-shadow: 0px 2px 1px 0px #e0607e;
+     margin: 2px;
+     font-size: large;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-weight:600;
+
+ }
+
+ #menos
+ {
+    width: 80px;
+    height: 80px;
+    background-color: #e0607e;
+    border-radius: 50%;
+    border-color: transparent;
+    box-shadow: 0px 2px 1px 0px #944255;
+    margin: 2px;
+    font-size: large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:600;
+ }
+
+ #mas
+ {
+    width: 80px;
+    height: 80px;
+    background-color: #e0607e;
+    border-radius: 50%;
+    border-color: transparent;
+    box-shadow: 0px 2px 1px 0px #944255;
+    margin: 2px;
+    font-size: large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:600;
+ }
+ 
+ #igual
+ {
+    width: 80px;
+    height: 80px;
+    background-color: #ff3d6b;
+    border-radius: 50%;
+    border-color: transparent;
+    box-shadow: 0px 2px 1px 0px #944255;
+    margin: 2px;
+    font-size: large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:600;
+ }
+
+ #por
+ {
+    width: 80px;
+    height: 80px;
+    background-color: #e0607e;
+    border-radius: 50%;
+    border-color: transparent;
+    box-shadow: 0px 2px 1px 0px #944255;
+    margin: 2px;
+     font-size: large;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-weight:600;
+ }
+
+ #dividido
+ {
+    width: 80px;
+    height: 80px;
+    background-color: #e0607e;
+    border-radius: 50%;
+    border-color: transparent;
+    box-shadow: 0px 2px 1px 0px #944255;
+    margin: 2px;
+     font-size: large;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-weight:600;
+ }
+
+ #c
+ {
+    width: 160px;
+    height: 80px;
+    background-color: #FBC4AB;
+    border-radius:45%;
+    border-color: transparent;
+    box-shadow: 0px 2px 1px 0px #e0607e;
+    margin: 2px;
+     font-size: large;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-weight:600;
+ }
+
+ #cero
+ {
+    width: 160px;
+    height: 80px;
+    background-color: #FBC4AB;
+    border-radius:45%;
+    border-color: transparent;
+    box-shadow: 0px 2px 1px 0px #e0607e;
+    margin: 2px;
+    font-size: large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:600;
  }
