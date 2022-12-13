@@ -5,46 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="style.css" />
     <script src="app.js"></script>
   </head>
   <body>
     <!-- CAlculadora-->
     <div id="fondoCalculadora">
-      <div id="cabecera">
+      <div id="display">
         <div id="resultado">
+          <p id="resultadoAnterior">x</p>
           <p id="resultadonum">0</p>
         </div>
       </div>
 
       <div id="fondoBotones">
         <div class="lineas">
-          <button id="c"">c</button>
-          <button class="boton1">%</button>
-          <button id="dividido">/</button>
+          <button id="c" class="operador">c</button>
+          <button class="boton1">&larr;</button>
+          <button id="dividido" class="operador">/</button>
         </div>
         <div class="lineas">
           <button class="boton1" onclick="f1('7')">7</button>
           <button class="boton1" onclick="f1('8')">8</button>
           <button class="boton1" onclick="f1('9')">9</button>
-          <button id="por">*</button>
+          <button id="por" class="operador">*</button>
         </div>
         <div class="lineas">
           <button class="boton1" onclick="f1('4')">4</button>
           <button class="boton1" onclick="f1('5')">5</button>
           <button class="boton1" onclick="f1('6')">6</button>
-          <button id="menos">-</button>
+          <button id="menos" class="operador">-</button>
         </div>
         <div class="lineas">
           <button class="boton1" onclick="f1('1')">1</button>
           <button class="boton1" onclick="f1('2')">2</button>
           <button class="boton1" onclick="f1('3')">3</button>
-          <button id="mas">+</button>
+          <button id="mas" class="operador">+</button>
         </div>
         <div class="lineas">
-          <button id="cero" onclick="f1('0')">0</button>
+          <button id="cero" class="boton1" click="f1('0')">0</button>
           <button class="boton1" onclick="f1('.')">.</button>
-          <button id="igual">=</button>
+          <button id="igual" class="operador">=</button>
         </div>
       </div>
     </div>

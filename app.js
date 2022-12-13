@@ -10,4 +10,3 @@ function operacion(valor) {
   ope = valor
   
   }
-}
