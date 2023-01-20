@@ -1,12 +1,24 @@
-let num1=0;
-let ope;
+const inputResult = document.getElementById("resultado");
+const btnValues = document.querySelectorAll("button");
 
-function f1(valor){
-  num1= num1 + valor
-  document.getElementById("resultadonum").innerHTML = num1;
+function reset() {
+   inputResult.value = ""
 }
 
-function operacion(valor) {
-  ope = valor
-  
-  }
+
+
+btnValues.forEach(
+   (element)=>{
+      element.addEventListener("click" , ()=>{
+         inputResult.value += element.value;
+
+         if (element.id === "igual") {
+            inputResult.value = eval(inputResult.value)
+         }
+
+         if (element.id === "reset") {
+            reset()
+         }
+      })
+   }
+)

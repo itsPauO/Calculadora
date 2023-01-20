@@ -4,49 +4,46 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Calculadora</title>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="styles/style.css" />
-    <script src="app.js"></script>
+    <script src="app.js" type="text/javascript" defer></script>
   </head>
   <body>
     <!-- CAlculadora-->
     <div id="fondoCalculadora">
       <div id="display">
-        <div id="resultado">
-          <p id="resultadoAnterior">x</p>
-          <p id="resultadonum">0</p>
-        </div>
+        <input type="text" placeholder="0" value="" readonly id="resultado">
       </div>
 
       <div id="fondoBotones">
         <div class="lineas">
-          <button id="c" class="operador">c</button>
+          <button id="reset" class="reset" >c</button>
           <button class="boton1">&larr;</button>
-          <button id="dividido" class="operador">/</button>
+          <button id="dividido" class="operador" value="/">/</button>
         </div>
         <div class="lineas">
-          <button class="boton1" onclick="f1('7')">7</button>
-          <button class="boton1" onclick="f1('8')">8</button>
-          <button class="boton1" onclick="f1('9')">9</button>
-          <button id="por" class="operador">*</button>
+          <button class="boton1" value="7">7</button>
+          <button class="boton1" value="8">8</button>
+          <button class="boton1" value="9">9</button>
+          <button id="por" class="operador" value="*">*</button>
         </div>
         <div class="lineas">
-          <button class="boton1" onclick="f1('4')">4</button>
-          <button class="boton1" onclick="f1('5')">5</button>
-          <button class="boton1" onclick="f1('6')">6</button>
-          <button id="menos" class="operador">-</button>
+          <button class="boton1" value="4">4</button>
+          <button class="boton1" value="5">5</button>
+          <button class="boton1" value="6">6</button>
+          <button id="menos" class="operador" value="-">-</button>
         </div>
         <div class="lineas">
-          <button class="boton1" onclick="f1('1')">1</button>
-          <button class="boton1" onclick="f1('2')">2</button>
-          <button class="boton1" onclick="f1('3')">3</button>
-          <button id="mas" class="operador">+</button>
+          <button class="boton1" value="1">1</button>
+          <button class="boton1" value="2">2</button>
+          <button class="boton1" value="3">3</button>
+          <button id="mas" class="operador" value="+">+</button>
         </div>
         <div class="lineas">
-          <button id="cero" class="boton1" onclick="f1('0')">0</button>
-          <button class="boton1" onclick="f1('.')">.</button>
-          <button id="igual" class="operador">=</button>
+          <button id="cero" class="boton1" value="0">0</button>
+          <button class="boton1" value=".">.</button>
+          <button id="igual" class="operador" value="">=</button>
         </div>
       </div>
     </div>
